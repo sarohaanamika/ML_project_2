@@ -4,29 +4,29 @@
 This project aims to build a movie recommendation system using machine learning techniques. The system is designed to suggest similar movies based on a given movie's metadata such as cast, crew, keywords, and genres. The project utilizes popular machine learning libraries, including scikit-learn, pandas, and numpy, along with streamlit for a user-friendly web interface.
 
 ## Project Structure 
-.
-├── logs/
-├── mlproject2.egg-info/
-├── notebook/
-│   ├── data/
-│   │   ├── tmdb_5000_credits.csv
-│   │   ├── tmdb_5000_movies.csv
-│   │   ├── movies_dict.pkl
-│   │   ├── Netflix_Movie_Recommendation.ipynb
-│   │   └── similarity.pkl
-├── src/
-│   ├── __pycache__/
-│   ├── pipeline/
-│   ├── __init__.py
-│   ├── exception.py
-│   ├── logger.py
-│   └── utils.py
-├── venv/
-├── .gitignore
-├── app.py
-├── README.md
-├── requirements.txt
-└── setup.py
+##    .
+##    ├── logs/
+##    ├── mlproject2.egg-info/
+##    ├── notebook/
+##    │   ├── data/
+##    │   │   ├── tmdb_5000_credits.csv
+##    │   │   ├── tmdb_5000_movies.csv
+##    │   │   ├── movies_dict.pkl
+##    │   │   ├── Netflix_Movie_Recommendation.ipynb
+##    │   │   └── similarity.pkl
+##    ├── src/
+##    │   ├── __pycache__/
+##    │   ├── pipeline/
+##    │   ├── __init__.py
+##    │   ├── exception.py
+##    │   ├── logger.py
+##    │   └── utils.py
+##    ├── venv/
+##    ├── .gitignore
+##    ├── app.py
+##    ├── README.md
+##    ├── requirements.txt
+##    └── setup.py
 
 ## Key Directories and Files:
 notebook/data: Contains the datasets used (tmdb_5000_movies.csv, tmdb_5000_credits.csv), the movie dictionary file (movies_dict.pkl), and a Jupyter notebook for experimentation.
