@@ -4,29 +4,31 @@
 This project aims to build a movie recommendation system using machine learning techniques. The system is designed to suggest similar movies based on a given movie's metadata such as cast, crew, keywords, and genres. The project utilizes popular machine learning libraries, including scikit-learn, pandas, and numpy, along with streamlit for a user-friendly web interface.
 
 ## Project Structure 
-##    .
-##    ├── logs/
-##    ├── mlproject2.egg-info/
-##    ├── notebook/
-##    │   ├── data/
-##    │   │   ├── tmdb_5000_credits.csv
-##    │   │   ├── tmdb_5000_movies.csv
-##    │   │   ├── movies_dict.pkl
-##    │   │   ├── Netflix_Movie_Recommendation.ipynb
-##    │   │   └── similarity.pkl
-##    ├── src/
-##    │   ├── __pycache__/
-##    │   ├── pipeline/
-##    │   ├── __init__.py
-##    │   ├── exception.py
-##    │   ├── logger.py
-##    │   └── utils.py
-##    ├── venv/
-##    ├── .gitignore
-##    ├── app.py
-##    ├── README.md
-##    ├── requirements.txt
-##    └── setup.py
+
+Here is the main structure of the project:
+
+logs/ : Contains log files generated during execution.
+mlproject2.egg-info/ : Metadata about the project, typically used during packaging.
+notebook/ : Jupyter notebook folder for data exploration and experimentation.
+data/ : Dataset and preprocessed files.
+tmdb_5000_credits.csv : Dataset containing movie credits information (cast and crew).
+tmdb_5000_movies.csv : Dataset with metadata like movie genres and keywords.
+movies_dict.pkl : Preprocessed dictionary used for the recommendation engine.
+Netflix_Movie_Recommendation.ipynb : Jupyter notebook to test and experiment with the recommendation engine.
+similarity.pkl : Pickle file storing the similarity matrix.
+src/ : Source code directory containing Python scripts.
+pipeline/ : Folder to hold data transformation or modeling pipelines.
+__init__.py : Initialization file for the src package.
+exception.py : Handles custom exceptions for error handling.
+logger.py : Logging setup for tracking events.
+utils.py : Utility functions used across the project.
+venv/ : Virtual environment containing dependencies for the project.
+.gitignore : Specifies files and folders to ignore during Git version control.
+app.py : The main Streamlit application file.
+README.md : This README file.
+requirements.txt : List of all dependencies required for the project.
+setup.py : Python setup script for project packaging.
+
 
 ## Key Directories and Files:
 notebook/data: Contains the datasets used (tmdb_5000_movies.csv, tmdb_5000_credits.csv), the movie dictionary file (movies_dict.pkl), and a Jupyter notebook for experimentation.
